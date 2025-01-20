@@ -3,11 +3,11 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "search.wl.do/api/:path*"
+      "destination": "/api/:path*"
     },
     {
       "source": "/(.*)",
       "destination": "/index.html"
     }
   ]
-} 
+}
